@@ -1,1 +1,8 @@
-#There's not nearly enough information given in previous lessons for me to solve this lab.
+  squared = []
+  count = 0
+  while count < array.size do
+    squared << (array[count] ** 2)
+    count = count + 1
+  end
+  squared
+end
